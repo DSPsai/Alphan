@@ -1,0 +1,670 @@
+#Nav{
+    padding-right: 50px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-rows: 15px 15px;
+    justify-content: right;
+    width: 100px;
+    cursor: pointer;
+}
+#Nav svg:nth-child(2){
+    margin-left: 25px;
+}
+#Nav svg{
+}
+#Navbap{
+    background-color: black;
+    text-align: -webkit-right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navelement{
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+#Navbapd{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#Navbapp{
+    background-color: black;
+    display: grid;
+    padding-bottom: 10px;
+    grid-template-columns: 50% 50%;
+}
+#Navbapp svg{
+    padding-top: 25px;
+    margin-left: 40px;
+}
+.Hero{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../Images/Hero.png'),radial-gradient(#000000a3 5%, #000000 55%);
+}
+.Hero .herobig,.herosmall{
+    color:white;
+}
+.Hero .herobig{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    padding-top: 10vh;
+}
+.Hero .herosmall{
+    text-align: right;
+    font-size: 40px;
+    margin-top: 10vh;
+    padding-right: 10%;
+    font-weight: 600;
+}
+.Hero .Herobut{
+    text-align: -webkit-right;
+   text-align: -moz-right;
+    padding-right: 10%;
+    margin-top: 5vh;
+}
+.Hero .Herobutin{
+    width: max-content;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 20px;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-bottom: 14px;
+    background-color: 
+    rgba(254, 208, 8, 1);
+    transition: all 0.3s;
+    /* border:1px solid rgba(254, 208, 8, 1); */
+}
+.Hero .Herobutin:hover{
+    /* border:1px solid rgba(254, 208, 8, 1); */
+    background-color: black;
+    color:     rgba(254, 208, 8, 1);
+}
+.Herobottom{
+    background-color: black;
+    color:white;
+}
+.HeroHead{
+    font-size: 130px;
+    font-style: normal;
+    height: 30vh;
+    padding-left: 5%;
+    color:rgba(255, 255, 255, 0.693);
+}
+.HeroCard .Heronum{
+    font-size: 200px;
+    color: rgba(0, 0, 0, 0);
+    text-transform: full-width;
+    font-family: Baskervville;
+    text-align: end;
+    letter-spacing:-1.5%;
+    margin-right: -150px;
+    line-height: 24px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FED008;
+}
+.HeroCard{
+    margin-left: 10vw;
+    /* border-radius: 20px; */
+    width:350px !important;
+    margin-top: 50px;
+    height:320px;
+    /* text-align: center; */
+    padding: 20px;
+    display: inline-block;
+    background-color: rgba(52, 52, 52, 1);
+}
+.HeroCard .HerocardTit{
+    font-weight: 700;
+    font-size: 30px;
+}
+.HeroCard .HerocardText{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 22px;
+    color:rgba(255, 255, 255, 0.508);
+}
+.Herobottom{
+    padding-bottom: 50px;
+}
+.Herobottom .herocontain{
+    width: 100%;
+}
+.herocontain::-webkit-scrollbar {
+    width: 1px;
+  }
+  .scroll-container{
+      display: grid;
+      padding-right: 200px;
+      padding-top: calc(40vh - 350px);
+      /* padding-bottom: calc(40vh - 350px); */
+      overflow-x: hidden;
+      height:60vh;
+        touch-action: none;
+      min-height: 450px;
+      grid-template-columns: calc(450px + 10%) calc(450px + 10%) calc(450px + 10%);
+  }
+  .Hero{
+      
+  touch-action: none;
+  }
+  .HeroHead2{
+    font-size: 30px;
+    white-space: nowrap;
+    display: flex;
+    margin-top: 40px;
+    font-style: normal;
+    height:39px;
+    padding-left: 5%;
+    color:rgba(255, 255, 255, 0.693);
+  }
+  .HeroHead2bold{
+    font-size: 36px;
+    margin-top: -6.5px;
+    color:rgba(255, 255, 255, 0.905);
+  }
+  .HeroCard1{
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-column-gap: 50px;
+  }
+  .Herocardimage img{
+      height: 400px;
+      width: 210px;
+      object-fit: cover;
+  }
+  .HeroCard1{
+      width:600px;
+      margin: 60px;
+      margin-left: 10vw;
+      height:400px
+  }
+  .Herocard1quote{
+      margin-top: -50px;
+      text-align: end;
+  }
+  .Herocard1title{
+      font-weight: 600;
+      font-size: 30px;
+  }
+  .Herocardtext{
+      margin-top: 20px;
+      text-align: center;
+  }
+  .Herocardname{
+      text-align: end;
+      padding-right: 50px;
+      margin-top: 20px;
+  }
+  .Herocardprofession{
+    text-align: end;
+  }
+  .fa-star,.fa-star-half-alt{
+      color:#F1B824;
+  }
+  .Herotest .scroll-container{
+      margin-top: 80px;
+      grid-template-columns: calc(600px + 10%)  calc(600px + 10%);
+  }
+  .Footer{
+      background-color: black;
+      color:white;
+      padding: 20px;
+      padding-left: 40px;
+      padding-right: 40px;
+  }
+  .Footer div:first-child{
+      color:#FED008;
+      display: flex;
+      font-size: 40px;
+      vertical-align: middle;
+  }
+  .fotalp{
+      margin-left: 20px;
+  }
+  .Footer{
+      display: grid;
+      grid-template-columns: auto auto;
+  }
+  .fotlinks .fotlink{
+      display: flex;
+      flex-flow: column;
+      color:rgba(255, 255, 255, 0.761) !important;
+      font-weight: 700;
+      font-size: 20px !important;
+  }
+  .fotlinks .fotlink a{
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 500;
+      margin-bottom: 3px;
+      color: rgba(255, 255, 255, 0.679) !important;
+  }
+  .fotlinks{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+  }
+.line{
+    width:calc(100% - 100px);
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgba(255, 255, 255, 0.912);
+    height: 0.5px;
+   
+}
+.line2{
+    width:calc(100% - 200px);
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 150px;
+}
+.Footerfollow{
+    background-color: black;
+    color:white;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 0px;
+    text-align: end;
+}
+.fotlinks .fotlink a:hover{
+    color:white !important;
+}
+.HeroCard:nth-child(3){
+    margin-right: 500px;
+}
+.sticky{
+    height: 100vh;
+    background-color: black;
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    z-index: -100;
+    position: fixed;
+    top:0;
+    padding-top: calc(100vh / 7);
+    color:rgba(255, 255, 255, 0.056);
+    font-size: calc(100vw / 4);
+}
+.workcard:nth-child(0){
+    height:calc(100vh - 74px);
+}
+.workcard{
+    color:white;
+    height:100vh;
+    width: 100% !important;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    text-align: center;
+    background-color: transparent;
+}
+.workcarddata{
+    padding-top: calc(100vh / 3);
+    font-size: calc(100vw / 9);
+    margin-left: -15vw;
+    -webkit-text-stroke-width: 1px;
+    color: rgba(0, 0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-text-stroke-color: #fafafa;
+}
+.workname{
+    -webkit-text-stroke-width: 1px;
+    color: rgba(0, 0, 0, 0);
+    font-size: calc(100vw / 12);
+    display: grid;
+    margin-bottom: 100px;
+    height:calc(100vh - 74px);
+    grid-template-columns: 50% 40%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-text-stroke-color: #fafafa;
+}
+.stickyus{
+    font-size: calc(100vw / 6);
+}
+.inwork:hover{
+    cursor: pointer;
+    color:white;
+}
+.inwork{
+    /* margin-left: -15vw; */ 
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.inwork:hover{
+    color:white
+}
+.workimg{
+    height: 0px;
+    width:100%;
+    transition: height 0.5s, transform 4s; ;
+}
+.workimgstar{
+    height:70vh; 
+    object-fit: cover;
+    transform: scale(1.5);
+}
+.box:hover {
+    background-position: 0 -100%;
+}
+.workno{
+    overflow-y:scroll;
+    overflow-x:visible;
+}
+.workimg{
+    display: flex;
+    width:100%;
+    flex-flow: row;
+}
+  .imgout{
+    height:70vh;
+    margin-right: -15vw;
+    margin-left: 15vw;
+    z-index: -2;overflow: hidden;
+    width:100%;
+  }
+.number{
+    color:white;
+    position: absolute;
+    right: 70px;
+    font-size: 50px;
+    top:calc(100vh - 250px)
+}
+.number {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+  }
+  .numberlopala{
+    width: 96px;
+    margin-top: 2px;
+    margin-left: 2px;
+    border-radius: 50%;
+    height: 96px;
+  }
+  .CircularProgressbar .CircularProgressbar-path{
+      stroke:#FED008 !important;
+  }
+  .CircularProgressbar .CircularProgressbar-text{
+    font-size: 50px !important;
+    fill: #fff !important;
+  }
+  .CircularProgressbar .CircularProgressbar-trail {
+      stroke:rgba(128, 128, 128, 0.145) !important;
+  }
+  div::-webkit-scrollbar {
+    width: 1px;
+  }
+  .usi svg{
+    transform: rotate(-45deg);
+    margin-top: -5px;
+  }
+  .usi{
+    display: flex;
+    flex-flow: row;
+    height: 30vw;
+    margin-bottom: 5vw;
+    margin-left: 10vw;
+  }
+  .usd1{
+      font-size: 2vw;
+      color:white;
+      transition: transform 1s,margin-top 1s,margin-right 1s;
+      white-space: nowrap;
+  }
+  .usd2{
+      font-size: 3vw;
+      transition: transform 1s,margin-top 1s,margin-right 1s;
+      white-space: nowrap;
+  }
+  .usd3{
+      font-size: 2.3vw;
+      transition: transform 1s,margin-top 1s,margin-right 1s;
+      white-space: nowrap;
+  }
+  .fill{
+      height: 200px;
+      width: 200px;
+      text-align: center;
+      overflow: hidden;
+      cursor: pointer;
+    border-radius: 50%;
+    transition: transform 1s , opacity 1s, background-color 0.5s;
+  }
+  .fill:nth-child(1):hover,.fill:nth-child(2):hover,.fill:nth-child(3):hover{
+    transform: rotate(0deg);
+  }
+  .fill:nth-child(1) svg{
+      height:15vw;
+      width: 15vw;
+      transition: transform 1s;
+      transform: rotate(15deg);
+  }
+  .fill:nth-child(2) svg{
+      height:10.9vw;
+      width: 10.9vw;
+      transition: transform 1s,margin-left 1s;
+  }
+  .fill:nth-child(3) svg{
+      height:13vw;
+      width: 13vw;
+  }
+  .fill:nth-child(1){
+    height: 20vw;
+    width: 20vw;
+    margin-right: 8vw;
+    margin-left: 12vw;
+    background-color: white;
+    color:black;
+  }
+  .fill:nth-child(2){
+      height: 15vw;
+      width: 15vw;
+      margin-top: 10vw;
+      margin-left: -5vw;
+      margin-right: -41vw;
+  }
+  .fill:nth-child(3){
+    height: 20vw;
+    width: 20vw;
+    z-index: 99;
+    margin-top: 18vw;
+    margin-right: 23vw;
+    transform:rotate(-45deg);
+  }
+  .stickyus{
+      position: absolute;
+      height: 30vh;
+      padding-top: 70vh; 
+  }
+  .mouseoutbap{
+      z-index: 0;
+      position: fixed;
+  }
+  .mouseout{
+      height: 40px;
+      width: 40px;
+      pointer-events: none;
+      background-color: transparent;
+      border: 2px solid gray;
+      position: absolute;
+      /* z-index: 999; */
+      text-align: center;
+      border-radius: 50%;
+      transition: transform 0.1s;
+      transition-timing-function:linear;
+  }
+  *{
+      cursor:none;
+  }
+  .mousemid{
+      background-color: #FED008;
+      position: absolute;
+      pointer-events: none; 
+      margin-top: 13px;
+      margin-left: 13px;
+      height: 18px;
+      width: 18px;
+      border-radius: 50%;
+      transition-timing-function:linear;
+  }
+  .column{
+      color:white;
+      text-align: initial;
+      font-size: 30px;
+  }
+  .usticky{
+      width: 100%;
+      position: absolute;
+      font-size: calc(100vw / 5.8);
+      text-align: center;
+      z-index: -1;
+      padding-top: 25vh;
+      height: 1170px;
+      background-color: #000000;
+      color:rgba(128, 128, 128, 0.068);
+  }
+.my .inputs:nth-child(1) {
+      margin-top: 50px;
+      width: 80%;
+  }
+  .my .usticky{
+    height: 800px;
+  }
+  .my .form12{
+    grid-template-columns: 300px auto;
+  }
+  .form12{
+      text-align: center;
+      display: grid;
+      width: 75%;
+      /* min-width: 1000px; */
+      margin-right: auto;
+      margin-left: auto;
+      overflow: hidden;
+      height: 0px ;
+      grid-template-columns: 50% 50%;
+      transition: height 2s,opacity 1s;
+  }
+  .formhead{
+      color:#F1B824;
+      font-size: 70px;
+      margin-top: -25px;
+  }
+  .inputs input,textarea,.inputs button{
+      font-size: 25px;
+      padding: 5px;
+      padding-left: 10px;
+      width: 80%;
+      padding-right: 10px;
+      margin-bottom: 35px;
+      border:1px solid grey;
+      color: white;
+      background-color: #00000000;
+  }
+  .inputs button{
+      width: auto;
+  }
+  .inputs textarea{
+      margin-bottom: 30px;
+  }
+  .inputs .Herobut{
+      text-align: end;
+      color:white;
+      font-size: 25px;
+      font-weight: 700;
+  }
+  .inputs .Herobutin{
+      margin-left: auto;
+      margin-right: 55px;
+      border-radius: 50vw;
+      font-size: 25px;
+      padding: 10px;
+      padding-left: 25px;
+      padding-right: 25px;
+      transition: all 0.3s;
+      width: fit-content;
+      background-color: rgba(254, 208, 8, 1);
+      cursor: pointer;
+  }
+  .inputs .Herobutin:hover{
+      background-color: white;
+      color:black
+  }
+  #Navbapd{
+      overflow: hidden;
+  }
+  #Navbapd a{
+      text-decoration: none;
+      transition: all 0.5s;
+  }
+  
+  #Navbapd a:hover{
+      color:#F1B824;
+      transform: scale(1.5);
+  }
+  .Herotest .scroll-container{
+      min-height: 560px;
+  }
+  @media screen and (max-width: 768px){
+    .form12{
+        display: flex;
+        flex-flow: column;
+        min-width:unset;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: auto !important;
+    }
+    .column,.inputs{
+        height: auto !important;
+    }
+  }
+  @media (max-height : 550px){
+    .HeroHead{
+        font-size: 80px;
+        height: 20vh;
+    }
+    .HeroCard .Heronum{
+        font-size: 150px;
+        margin-right: -90px;
+    }
+    .HeroCard{
+        height: 250px;
+    }
+    .HeroCard .HerocardTit{
+        font-size: 20px;
+    }
+    .HeroCard .HerocardText{
+        font-size: 18px;
+    }
+    .Herocard1quote svg{
+        width: 100px;
+        height: 80px;
+    }
+    .Herocardimage img{
+        height: 300px;
+        width: 170px;
+    }
+    .Herotest .scroll-container{
+        margin-top: 50px;
+    }
+    .Herocard1title{
+        font-size: 25px;
+    }
+    .Herocardtext{
+        font-size: 14px;
+    }
+    #heroservices{
+        min-height: 500px !important;
+    }
+  }
